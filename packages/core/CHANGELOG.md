@@ -1,5 +1,12 @@
 # Change Log
 
+## 3.29.3
+
+### Patch Changes
+
+- 5d1c58e: Content that does not match the schema is now repaired before the editor mounts, instead of crashing the view. Nodes in an impossible position are unwrapped, wrapped or moved to a parent that allows them, so their text is kept.
+  - @tiptap/pm@3.29.3
+
 ## 3.29.2
 
 ### Patch Changes
